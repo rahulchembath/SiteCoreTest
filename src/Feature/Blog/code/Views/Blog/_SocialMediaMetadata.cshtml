@@ -1,0 +1,17 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Feature.Blog
+@model IBlog
+@if (Model != null && Model.SocialShares.Count() > 0)
+{
+    if (Model.SocialShares.Any(media => media.ItemName == Constants.FacebookName || media.ItemName == Constants.LinkedIn))
+    {
+        <meta property="og:title" content="@Model.Name">
+        <meta property="og:image" content="@(Model.LandingBoxImage != null? System.Web.HttpContext.Current.Request.Url.AbsoluteUri+Model.LandingBoxImage.Src:"")">
+    }
+    if (Model.SocialShares.Any(media => media.ItemName == Constants.TwitterName))
+    {
+        <meta name="twitter:title" content="@Model.Name" />
+        <meta name="twitter:image" content="@(Model.LandingBoxImage != null?System.Web.HttpContext.Current.Request.Url.AbsoluteUri+Model.LandingBoxImage.Src:"")" />
+    }
+
+}

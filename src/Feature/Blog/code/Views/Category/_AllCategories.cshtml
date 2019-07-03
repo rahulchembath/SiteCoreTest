@@ -1,0 +1,28 @@
+﻿@model Claro.Feature.Blog.Models.ICategoryFolder
+@using Claro.Feature.Blog
+@if (Model != null && Model.Categories.Count() > 0)
+{
+    var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
+    string headerText = string.Empty;
+    if (rc != null)
+    {
+        string additionalClass = rc.Rendering.Parameters[Constants.ClassParameterName];
+        headerText = rc.Rendering.Parameters[Constants.AllCategoryHeaderText];
+        if (!string.IsNullOrEmpty(additionalClass))
+        {
+            <div class="@additionalClass"></div>
+        }
+    }
+    <section class="sidebar_block all_categories d-lg-block d-none d-md-none d-sm-none d-xs-none">
+        <h3>@headerText</h3>
+        <ul>
+            @foreach (var item in Model.Categories.OrderBy(ord => ord.DisplayOrder))
+            {
+
+                <li>
+                    <a href="@(item.CategoryUrl == null ? "#" : item.CategoryUrl.Url + "?category=" + Server.UrlEncode(item.CategoryUrl.Query))">@item.CategoryTitle</a>
+                </li>
+            }
+        </ul>
+    </section>
+}

@@ -1,0 +1,111 @@
+﻿---
+ID: "0f809a3a-fd81-4515-8a56-fb25e243ab8f"
+Parent: "fd0aaae5-148d-405a-bb97-37175a0d6fe5"
+Template: "dc0e0504-f474-4ed9-ab24-7a00487de15a"
+Path: /sitecore/content/USClaroBlog/Home
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/16x16/home.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {DC0E0504-F474-4ED9-AB24-7A00487DE15A}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{F10DDA44-C045-4071-A6AE-1FB4BFF2FE8E}">
+        <r
+          id="{EB449E06-3FA3-4AA6-AD74-CBDD37453BAC}"
+          ph="header-content"
+          uid="{AF313EB3-3CC4-48EF-8E3A-2F4321C0F593}" />
+        <r
+          ds="{B7E32BAC-BA80-431A-AE99-2FDF88FA8CC0}"
+          id="{52DBE1CB-DA43-4B79-B403-E4AA3552DCEF}"
+          par=""
+          ph="logo"
+          uid="{2FDDCB41-7D9D-469F-AFBC-0617F46A8723}" />
+        <r
+          ds="{B7E32BAC-BA80-431A-AE99-2FDF88FA8CC0}"
+          id="{56556169-491C-473E-95C1-AFC5C033E737}"
+          par=""
+          ph="hamburger-logo"
+          uid="{06B47FF7-B348-4178-A84E-6845A158919E}" />
+        <r
+          ds="{616DE7B8-573D-4AB6-9FB3-6C1103033A93}"
+          id="{DF6DFF7B-3410-4C05-8A8E-BAA51261763B}"
+          par="Active=Home"
+          ph="nav-links"
+          uid="{81D0EF6C-D5DA-4B48-B4C3-75178DAFD70C}" />
+        <r
+          ds="{3524B013-E2BC-44D3-9F97-0F44C7457732}"
+          id="{83D61548-3F53-4956-8BFB-F9CAEFA7B533}"
+          par=""
+          ph="slogan"
+          uid="{EE9059DC-4EFD-42AD-8FE0-60FE1C5F02B5}" />
+        <r
+          id="{B9244485-6496-41A5-9ECF-AFAA53BADFD8}"
+          ph="main-content"
+          uid="{44E4D02D-2629-4B91-92A0-80F2B9E48157}" />
+        <r
+          id="{C21A73F0-9C80-4AA1-80E6-FFFC652D2224}"
+          ph="upper-content"
+          uid="{D9A1E464-765B-41F1-8ED8-9775E9F36A23}" />
+        <r
+          ds="{C61AC25C-6EC9-475E-B9D0-360F863F38C9}"
+          id="{F3896ED6-18C7-47AB-99B2-516FCA8A5186}"
+          par=""
+          ph="left-content"
+          uid="{B527E611-BDE6-48A0-A147-2907B6629E88}" />
+        <r
+          ds="{965A34CD-90CF-459F-9AD0-5B0C261B19FF}"
+          id="{E3E7C60D-E5F1-4394-83F4-0838B9C40065}"
+          par=""
+          ph="right-content"
+          uid="{572E2C86-2E26-40DC-A869-31041106B159}" />
+        <r
+          id="{7414DE24-BD20-491F-8EB4-ABE8A4C56EFD}"
+          ph="lower-content"
+          uid="{68BD9A5F-EB31-40C6-8FD7-6FE7C5AEFCDF}" />
+        <r
+          ds="{E2AE1386-3C88-4688-A614-BDC7609F4164}"
+          id="{7B44CF03-E19F-4B8F-8078-499B8931DCAA}"
+          par=""
+          ph="right-content"
+          uid="{D0A916D0-8FC7-41DC-9D95-8271282448DA}" />
+        <r
+          id="{952A697B-3FE5-46A5-9DB9-353C30A6A843}"
+          ph="main-content"
+          uid="{E7189B6F-5D2F-4135-AB8D-D8B22BBA1D34}" />
+        <r
+          ds=""
+          id="{3B1DDB68-5EF3-44D0-9B9D-33DC26501E5E}"
+          par=""
+          ph="main-content"
+          uid="{949C445C-D474-4612-AB70-A837F8CB23CC}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T134941Z
+    - ID: "2c05f660-1287-42c6-bc8f-e53763980bd1"
+      Hint: Meta Keyword
+      Value: blog
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: Claro Blog
+    - ID: "8045330a-2abd-47a3-9ae8-a12f8bc5eba2"
+      Hint: Meta Description
+      Value: Claro blog landing page

@@ -1,0 +1,24 @@
+﻿---
+ID: "dcb54212-5cbc-4805-a255-62a2f8a96f77"
+Parent: "f195cca4-9717-4470-b6b4-a6345d959f47"
+Template: "d87106f5-4b2a-461b-a92f-303efe2a1d2c"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Dictionary/Social/SocialFollow/HeaderText
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04e658ee-a9c3-42dc-9457-c96250b4fff4"
+      Hint: Value
+      Value: Follow us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190412T103956Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f1db7ad6-2719-4d5e-999c-9268d1dc8730"
+      Hint: Key
+      Value: HeaderText

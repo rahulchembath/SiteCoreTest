@@ -1,0 +1,24 @@
+﻿---
+ID: "8939881a-922f-4d4b-944c-175b1a7295d0"
+Parent: "bf3ad128-9d6f-4006-b59e-5d3df347573f"
+Template: "d87106f5-4b2a-461b-a92f-303efe2a1d2c"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Dictionary/Blog/SearchHeader/SearchLookingText
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04e658ee-a9c3-42dc-9457-c96250b4fff4"
+      Hint: Value
+      Value: "Not what you were looking for?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190529T102457Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "f1db7ad6-2719-4d5e-999c-9268d1dc8730"
+      Hint: Key
+      Value: SearchLookingText

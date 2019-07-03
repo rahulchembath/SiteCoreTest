@@ -1,0 +1,39 @@
+﻿---
+ID: "7d5819ab-7f46-42e3-9c20-c1f1c12cf2a8"
+Parent: "f96137c1-3c63-4244-8fd1-37c06de83f6a"
+Template: "d4f7a392-01b1-4dfb-a136-a68150662f2b"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Authors/Test Author 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T135539Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6e8b6309-3b7d-49e1-aee6-ccef6876e921"
+      Hint: Author LinkedIn Url
+      Value: |
+        <link linktype="external" url="https://www.linkedin.com/" />
+    - ID: "7a4cdcd3-3e51-4388-8ef4-ebfb7b67289f"
+      Hint: Auhtor Image
+      Value: |
+        <image mediaid="{924A0249-FDB6-4B42-9010-04F8AD13EEC2}" />
+    - ID: "87f74bd8-3d19-43a7-8791-f9f50ba0c7aa"
+      Hint: Author Summary
+      Value: fsdsdfsdfsdf asfsdfasdfsa  fgdfgdfd tytyrtg sfgsdsdfsdf sfsdfsdf sfg dfghdfgdfgsdf safgsdfsdfsdfsd s sdsdfsdffs
+    - ID: "9fdde5c4-aa51-4fbb-bca2-6f2b715a30cb"
+      Hint: Author Last Name
+      Value: Test last name
+    - ID: "be8a7b82-2c23-4648-98fb-f201058b8156"
+      Hint: Twitter Url
+      Value: |
+        <link linktype="external" url="https://twitter.com/?lang=en" />
+    - ID: "cdb2bf63-b8d3-4b2a-8e09-b53f63d3f1b0"
+      Hint: Author First Name
+      Value: Test name

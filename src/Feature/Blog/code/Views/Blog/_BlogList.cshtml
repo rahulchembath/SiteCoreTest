@@ -1,0 +1,17 @@
+﻿@using Claro.Feature.Blog.Models
+@using  Claro.Feature.Blog
+@using Claro.Foundation.Assets.Services
+@model BlogListViewModel
+
+@if (Model != null)
+{
+    <section class="article_blog">
+        <input type="hidden" id="hdnFeaturedArticleId" value="@Model.FeatureArticleId" />
+        <input type="hidden" id="hdnCategory" value="@Model.Category" />
+        <div class="row row-flex" id="blgList">
+            @Html.Partial(Constants.BlogPartialPage, Model)
+        </div>
+        <div id="divLoader" style="display:none;"> <img src="/images/ajax-loader.gif" alt="Loader" /> </div>
+    </section>
+    AssetsService.Current.Resource("<script src=\"/js/loadblog.js\"></script>",Constants.LoadBlogJs);
+}

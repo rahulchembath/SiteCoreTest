@@ -1,0 +1,24 @@
+﻿---
+ID: "9f73c465-d7db-4fae-84cb-b1fed9b167ce"
+Parent: "e2ae1386-3c88-4688-a614-bdc7609f4164"
+Template: "1cf61c16-8297-43fd-a0bd-2ac1136c9088"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Social Media Follow/twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190412T110030Z
+    - ID: "3a5686af-440a-4280-a612-4c50eedde164"
+      Hint: Display Order
+      Value: 2
+    - ID: "3ef2ab76-fe62-4051-824d-5b3e0cb30af2"
+      Hint: Social Media Class Name
+      Value: tw
+    - ID: "674dbacf-d342-436b-be6a-e0df2a489bff"
+      Hint: Social Media Url
+      Value: |
+        <link linktype="external" url="https://twitter.com/USClaro" />

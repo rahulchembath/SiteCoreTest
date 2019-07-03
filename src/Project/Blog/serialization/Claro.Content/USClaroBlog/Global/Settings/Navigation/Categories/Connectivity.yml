@@ -1,0 +1,24 @@
+﻿---
+ID: "b9d6525b-3782-4b23-8b7b-42ce80ab3d95"
+Parent: "ef15850d-c3d8-4ca0-926c-56453e63cf62"
+Template: "31978245-b101-479c-ba92-43d5eb00e60e"
+Path: /sitecore/content/USClaroBlog/Global/Settings/Navigation/Categories/Connectivity
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24b051d7-4080-4c98-ac69-1f386ec40906"
+      Hint: Navigation URL
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="Connectivity" id="{4E9724A1-CADB-4331-906C-FC7FCE064C05}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T140614Z
+    - ID: "40a574e7-a317-4ab1-aacf-de046feea93f"
+      Hint: DisplayOrder
+      Value: 1
+    - ID: "9d3c1cd4-44c1-4b86-a3cc-444a9a96608e"
+      Hint: Navigation Title
+      Value: Connectivity

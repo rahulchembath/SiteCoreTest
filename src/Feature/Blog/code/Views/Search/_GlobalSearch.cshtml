@@ -1,0 +1,33 @@
+﻿@using Claro.Foundation.Assets.Services
+@using Claro.Foundation.Dictionary.Extensions
+@using Claro.Feature.Blog.Models
+@model SearchContext
+<a href="#" id="searchBottom" class="down" data-toggle="modal" data-target="#searchModal"><i class="fas fa-search"></i></a>
+<div id="searchModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 class="modal-title">@Html.Sitecore().Dictionary("/Blog/GlobalSearch/SearchText", "New Search")<button type="button" class="close" data-dismiss="modal">&times;</button></h4>
+            </div>
+            <div class="modal-body searh-panel">
+                <form action="@Model.SearchPageUrl" class="navbar-form" role="search">
+                    <div class="search_section">
+                        <div class="input-group">
+                            <input type="search" name="query" id="srctext" class="form-control" placeholder="@Html.Sitecore().Dictionary("/Blog/GlobalSearch/SearchPlaceholderText", "Search...")" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit" id="btnSubmit"><i class="fa fa-search"></i></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+@{
+    AssetsService.Current.Resource("<script src=\"/js/GlobalSearch.js\"></script>", "GlobalSearchJs");
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "outputFileName": "css/bundle.css",
+    "inputFiles": [
+      "css/bootstrap.css",
+      "css/h5p-font-awesome.css",
+      "css/main.css",
+      "css/heander_menu.css",
+      "css/animate.css",
+      "css/scroll_to_top.css",
+      "css/claro_style.css"
+    ]
+  },
+  {
+    "outputFileName": "js/bundle.js",
+    "inputFiles": [
+      "js/jquery.js",
+      "js/umdpopper.js",
+      "js/bootstrap.js",
+      "js/jquery.ellipsis.js",
+      "js/wow.js",
+      "js/core.js"
+    ]
+  }
+]

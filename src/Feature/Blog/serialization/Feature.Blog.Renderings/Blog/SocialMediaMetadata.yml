@@ -1,0 +1,18 @@
+﻿---
+ID: "7ba1b9be-2875-47e7-a397-751207554b60"
+Parent: "d812fccd-eda0-42fb-88cf-d6f347dc0625"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Feature/Blog/SocialMediaMetadata
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Blog/_SocialMediaMetadata.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190520T154355Z

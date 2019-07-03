@@ -1,0 +1,109 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Foundation.Dictionary.Extensions
+@using Claro.Foundation.Assets.Services
+@model CommentViewModel
+<section class="leave-a-comment  mt-5 mb-5 wow bounceInUp">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-10">
+                <h1>@Html.Sitecore().Dictionary("/Blog/LeaveComment/TextForLeaveCommentLabel", "Leave a Comment")</h1>
+                <input type="hidden" id="hdnFillRequiredFields" value="@Html.Sitecore().Dictionary("/Blog/LeaveComment/FillRequiredFieldsText", "Please Fill Required Fields")" />
+                <input type="hidden" id="hdnInvalidEmail" value="@Html.Sitecore().Dictionary("/Blog/LeaveComment/InvalidEmailText", "Invalid Email")" />
+                <input type="hidden" id="hdnSignUpSocialMedia" value="@Html.Sitecore().Dictionary("/Blog/LeaveComment/SignUpSocialMediaText", "Please sign up with social media to post a comment")" />
+                <input type="hidden" id="hdnFailedToPost" value="@Html.Sitecore().Dictionary("/Blog/LeaveComment/ErrorText", "Failed to Post")" />
+                <input type="hidden" id="hdnParentId" value="@Model.parentId" />
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-10">
+                <div class="alert alert-danger alert-dismissible d-none" id="commentMessage">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-5">
+                <div class="form-group">
+                    @{
+                        bool firstNameReadonly = string.IsNullOrEmpty(Model.FirstName) ? false : true;
+                        bool lastNameReadonly= string.IsNullOrEmpty(Model.LastName) ? false : true;
+                    }
+                    @if (firstNameReadonly)
+                    {
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/FirstNamePlaceholderText", "First Name * "), @readonly = "readonly" })
+                    }
+                    else
+                    {
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/FirstNamePlaceholderText", "First Name * ") })
+                    }
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="form-group">
+                    @if (lastNameReadonly)
+                    {
+                         @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/LastNamePlaceholderText", "Last Name *"), @readonly = "readonly" })
+                    }
+                    else
+                    {
+                         @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/LastNamePlaceholderText", "Last Name *") })
+                    }
+                   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-5">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/CompanyNamePlaceholderText", "Company Name") })
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/EmailPlaceholderText", "Email") })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-10">
+                @Html.TextAreaFor(m => m.Comment, new { @class = "form-control", @placeholder = Html.Sitecore().Dictionary("/Blog/LeaveComment/CommentPlaceholderText", "Comments *") })
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-sm-6">
+                <button type="submit" class="btn btn-block submit btn-primary mb-4" id="LeaveCommentSubmit" name="Submit">@Html.Sitecore().Dictionary("/Blog/LeaveComment/SubmitText", "Submit")</button>
+            </div>
+
+            <div class="col-md-5 col-sm-6">
+                <div class="footer-social float-right">
+                    @if ((System.Web.HttpContext.Current.User != null) && System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
+                    {
+                        <p>@Html.Sitecore().Dictionary("/Blog/LeaveComment/HiText", "Hi"), @Sitecore.Context.User.Profile.FullName</p>
+                    }
+                    else
+                    {
+                        <ul>
+                            <li><p><span> @Html.Sitecore().Dictionary("/Blog/LeaveComment/LoginWithText", "Log in with")</span></p></li>
+                            @foreach (var signIn in Model.signinURLInfo)
+                            {
+                                using (Html.BeginForm(null, null, FormMethod.Post, new { @action = signIn.Href, @id = "frm" + signIn.IdentityProvider }))
+                                {
+                                    <li>
+                                        <button class="btn btn-outline-secondary" type="submit" id="@("btn"+signIn.IdentityProvider)">
+                                            <img src="@signIn.Icon" alt="@signIn.Caption" />
+                                        </button>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@{
+    AssetsService.Current.Resource("<script src=\"/js/LeaveComment.js\"></script>", "LeaveCommentJs");
+}

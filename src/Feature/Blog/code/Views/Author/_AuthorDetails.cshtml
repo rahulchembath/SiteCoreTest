@@ -1,0 +1,47 @@
+﻿@using Claro.Feature.Blog.Models
+@using Glass.Mapper.Sc.Web.Mvc
+@model IBlog
+@if (Model != null & Model.Author != null)
+{
+    <section class="about-author bg-gray mt-5 mb-5 wow bounceInUp">
+        <div class="container">
+            <div class="card details">
+                <div class="row no-gutters">
+                    <div class="offset-md-1 col-md-2 col-sm-4">
+                        @Html.Glass().RenderImage(item => item.Author.Image, new { @class = "card-img" })
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                @Html.Glass().Editable(item => item.Author.FirstName)&nbsp;@Html.Glass().Editable(item => item.Author.LastName)
+                            </h3>
+                            <p class="card-text"> @Html.Glass().Editable(item => item.Author.AuthorSummary)</p>
+
+                            <div class="footer-social mt-2 mb-2">
+                                <ul>
+                                    @if (Model.Author.LinkedinUrl != null)
+                                    {
+                                        <li>
+                                            <a href="@Model.Author.LinkedinUrl.Url" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                    @if (Model.Author.TwitterUrl != null)
+                                    {
+                                        <li>
+                                            <a href="@Model.Author.TwitterUrl.Url" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+

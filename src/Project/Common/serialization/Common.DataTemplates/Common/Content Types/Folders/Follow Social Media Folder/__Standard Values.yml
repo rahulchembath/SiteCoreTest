@@ -1,0 +1,23 @@
+﻿---
+ID: "051e5f92-8f31-4457-b39a-567541bf65d0"
+Parent: "4c456ce1-5da9-43cb-8217-28f48c55b05d"
+Template: "4c456ce1-5da9-43cb-8217-28f48c55b05d"
+Path: /sitecore/templates/Project/Common/Content Types/Folders/Follow Social Media Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1CF61C16-8297-43FD-A0BD-2AC1136C9088}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190412T101208Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

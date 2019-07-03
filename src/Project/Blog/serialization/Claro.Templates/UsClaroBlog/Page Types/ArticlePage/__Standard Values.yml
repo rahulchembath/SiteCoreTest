@@ -1,0 +1,118 @@
+﻿---
+ID: "12557bb8-223a-4c17-8d76-0d8ff15587cc"
+Parent: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/templates/Project/UsClaroBlog/Page Types/ArticlePage/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{F10DDA44-C045-4071-A6AE-1FB4BFF2FE8E}">
+        <r
+          id="{7BA1B9BE-2875-47E7-A397-751207554B60}"
+          ph="social-metadata"
+          uid="{563C9C28-984F-43E7-A209-BB4B0FC56EF9}" />
+        <r
+          id="{EB449E06-3FA3-4AA6-AD74-CBDD37453BAC}"
+          ph="header-content"
+          uid="{AF313EB3-3CC4-48EF-8E3A-2F4321C0F593}" />
+        <r
+          ds="{B7E32BAC-BA80-431A-AE99-2FDF88FA8CC0}"
+          id="{52DBE1CB-DA43-4B79-B403-E4AA3552DCEF}"
+          par=""
+          ph="logo"
+          uid="{2FDDCB41-7D9D-469F-AFBC-0617F46A8723}" />
+        <r
+          ds="{B7E32BAC-BA80-431A-AE99-2FDF88FA8CC0}"
+          id="{56556169-491C-473E-95C1-AFC5C033E737}"
+          par=""
+          ph="hamburger-logo"
+          uid="{76484804-FCB3-41A8-9D33-41184024DC6E}" />
+        <r
+          ds="{616DE7B8-573D-4AB6-9FB3-6C1103033A93}"
+          id="{DF6DFF7B-3410-4C05-8A8E-BAA51261763B}"
+          par=""
+          ph="nav-links"
+          uid="{81D0EF6C-D5DA-4B48-B4C3-75178DAFD70C}" />
+        <r
+          ds="{3524B013-E2BC-44D3-9F97-0F44C7457732}"
+          id="{83D61548-3F53-4956-8BFB-F9CAEFA7B533}"
+          par=""
+          ph="slogan"
+          uid="{EE9059DC-4EFD-42AD-8FE0-60FE1C5F02B5}" />
+        <r
+          ds=""
+          id="{5FA7B25D-8FA3-4C8D-BABE-878DB07381F9}"
+          par=""
+          ph="main-content"
+          uid="{A681891F-34B3-41FF-9D65-E3BDB3756D28}" />
+        <r
+          id="{F37BE8F7-A3DF-414C-AC42-831D846C1347}"
+          ph="right-content"
+          uid="{B658F6F0-6F11-445B-844E-2E4125867FFC}" />
+        <r
+          id="{7538DD2F-91D8-4E13-94B9-457267465E4D}"
+          ph="right-content"
+          uid="{AAE51557-E4AD-40EF-92DE-4F4F7BCC7727}" />
+        <r
+          ds="{318212DC-C7F3-4A71-B81F-60529C7CD39B}"
+          id="{E7EDCAAB-21F6-4249-B7B9-7A4580139937}"
+          par="class=p-3&amp;header_text=Categories"
+          ph="right-content"
+          uid="{D16677E7-4E4D-4AFC-9A35-5585A4758760}" />
+        <r
+          id="{25891C12-6AC7-4653-9417-D5832BC6B57C}"
+          ph="blog-lower-content"
+          uid="{593E69D0-F0FD-4F72-B287-9B0A09841CDD}" />
+        <r
+          ds=""
+          id="{F4B30D6D-E335-4CB6-BDEC-F7CB609C4DCB}"
+          par=""
+          ph="blog-lower-content"
+          uid="{B3250DA6-AA53-442E-90C0-FADD9B23D669}" />
+        <r
+          id="{36B1B08A-1BD9-46D1-A246-B2CAE90EE022}"
+          ph="blog-lower-content"
+          uid="{88DAFCE3-2A3B-4558-A890-AB50B16EB9E9}" />
+        <r
+          ds=""
+          id="{7538DD2F-91D8-4E13-94B9-457267465E4D}"
+          par="OnlyInMoblie=true"
+          ph="blog-lower-content"
+          uid="{FF48F248-12C7-4EA9-BC7F-1778A3CBBCEE}" />
+        <r
+          id="{BC271DA3-BC4E-445D-8079-BAE94D1F84BC}"
+          ph="blog-lower-content"
+          uid="{4A8D56AA-669D-4407-A92B-6E0665252FC1}" />
+        <r
+          id="{952A697B-3FE5-46A5-9DB9-353C30A6A843}"
+          ph="main-content"
+          uid="{44DD3A7C-9B1F-415C-92F5-8E6AE8E6E640}" />
+        <r
+          ds=""
+          id="{3B1DDB68-5EF3-44D0-9B9D-33DC26501E5E}"
+          par=""
+          ph="main-content"
+          uid="{66C0ABEF-B5FB-49BE-ACFC-FF031DF5E290}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T143116Z
+    - ID: "fe3177a8-1768-4936-8a59-5a379ae57604"
+      Hint: Blog Social Share
+      Type: Multilist
+      Value: |
+        {59E67073-8B7B-4C9B-960E-4E37D4173BA7}
+        {72E286F9-AB71-4E78-B094-043BCDD57802}
+        {0D281E04-D8A0-4BCC-BA6F-00E727940D94}

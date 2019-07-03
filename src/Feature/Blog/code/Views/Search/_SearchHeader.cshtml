@@ -1,0 +1,33 @@
+﻿@using Claro.Foundation.Dictionary.Extensions
+@using Claro.Feature.Blog.Models
+@model SearchContext
+<section class="searh-panel bg-gray mt-5 mb-5 wow bounceInUp">
+    <div class="container">
+
+        <div class="card details mb-3 bg-gray">
+            <div class="row no-gutters">
+
+
+                <div class="col-md-12 col-sm-12">
+
+                    <h3>@Html.Sitecore().Dictionary("/Blog/SearchHeader/NewSearchText", "New Search")</h3>
+                    <h4>@Html.Sitecore().Dictionary("/Blog/SearchHeader/SearchLookingText", "Not what you were looking for?") </h4>
+                    <form action="@Model.SearchPageUrl" class="navbar-form" role="search">
+                        <div class="search_section">
+                            <div class="input-group mb-3">
+                                <input type="search" name="query" id="srctext" class="form-control" value="@Model.Query" placeholder="@Html.Sitecore().Dictionary("/Blog/SearchHeader/SearchPlaceholderText", "Search...")" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <input type="hidden" id="hdnQueryText" value="@Model.Query" />
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="submit" id="btnResearch"><i class="fa fa-search"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>

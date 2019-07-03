@@ -1,0 +1,25 @@
+﻿---
+ID: "12259ee1-0a19-4e5f-8b4e-d6247af47017"
+Parent: "d364fa99-d792-4cf0-b485-33d025f3dcff"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Common/Content Types/Folders/Author Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_cubes.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{805C1E14-6BEC-4C92-A524-F0D09E46BBB3}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{0933AB2F-BFDF-469E-AFBA-C8FFB3F92B72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190404T145855Z

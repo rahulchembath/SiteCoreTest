@@ -1,0 +1,50 @@
+﻿---
+ID: "0ab9a8b4-671a-4263-a99d-9c2fd4f1a3ef"
+Parent: "b8d4fc87-0ecb-47e8-94b7-23db10013d0e"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/04/22/10/32/Test Today
+DB: master
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07585cb4-f907-4bd6-8aa1-32ab83eeacfd"
+      Hint: Blog Landing Box Image
+      Value: |
+        <image mediaid="{3A8D2C74-4B50-48B2-A9F2-CF9350663577}" />
+    - ID: "0f89f034-960d-4f0d-9eda-3570d064b592"
+      Hint: Blog Intro
+      Value: Intro
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190422T103204Z
+    - ID: "3835a22f-8e14-4712-9873-30667ec7fd7a"
+      Hint: Blog Image
+      Value: |
+        <image mediaid="{3A8D2C74-4B50-48B2-A9F2-CF9350663577}" />
+    - ID: "3cb1ffd6-c4e2-43f7-a4aa-97356b6c30dc"
+      Hint: Blog Hero Image
+      Value: |
+        <image mediaid="{AC6732E7-BC16-42AD-B7DF-409DBA3DCECD}" />
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: Test Today
+    - ID: "b13291fc-be7f-4344-8318-82a83f0af21c"
+      Hint: Blog Title
+      Value: Title shown in page
+    - ID: "c7a807af-f4c0-4294-8ce9-29551c8d7f0d"
+      Hint: Blog Author
+      Value: "{63DB27FC-4916-4260-8FEF-CF26A191EAB6}"
+    - ID: "ee125aa7-7e10-4db9-b36f-259c5c08eff7"
+      Hint: Blog Category
+      Type: Multilist
+      Value: "{8075412D-C724-42BE-925E-AA401734A966}"
+    - ID: "f82a2a6c-cf30-478f-9676-46170e5c7746"
+      Hint: Blog Created
+      Value: 20190422T103300Z

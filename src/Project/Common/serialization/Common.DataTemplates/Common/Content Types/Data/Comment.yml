@@ -1,0 +1,25 @@
+﻿---
+ID: "7bf5654a-d501-406a-9f04-73df21f29f2b"
+Parent: "f00f2287-7685-4571-a043-a83e99eccdc0"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Common/Content Types/Data/Comment
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/address_book.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{338A1A0A-1034-4FE4-BE29-28FBD7AA5D32}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{5B28DC16-04FA-43C1-BB18-2E42219C8731}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190409T035109Z

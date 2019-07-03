@@ -1,0 +1,52 @@
+﻿---
+ID: "bbb24725-e092-48da-98d7-91d86bec6cfd"
+Parent: "583fb8e7-7c08-4bed-ab0c-619b08a8519a"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/06/18/14/02/The Space Article Try Demo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07585cb4-f907-4bd6-8aa1-32ab83eeacfd"
+      Hint: Blog Landing Box Image
+      Value: |
+        <image mediaid="{1E5E0834-D9D6-44ED-8ADF-95BF27E34B46}" />
+    - ID: "0f89f034-960d-4f0d-9eda-3570d064b592"
+      Hint: Blog Intro
+      Value: sdfdsfsdf sdfsdfsdf
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190618T140302Z
+    - ID: "3761d754-0c37-4864-95ec-7658dd089b6b"
+      Hint: Blog Description
+      Value: sdfsdf ssdfsd sdfsdfsdf sfsdf&nbsp;
+    - ID: "3835a22f-8e14-4712-9873-30667ec7fd7a"
+      Hint: Blog Featured Image
+      Value: |
+        <image mediaid="{F8F24043-1B6E-41F2-8B1A-4CFA2F8C7FC9}" />
+    - ID: "3cb1ffd6-c4e2-43f7-a4aa-97356b6c30dc"
+      Hint: Blog Hero Image
+      Value: |
+        <image mediaid="{69FD1148-C9EE-4935-9732-649E856FDBD3}" />
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: The Space Article Try Demo
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b13291fc-be7f-4344-8318-82a83f0af21c"
+      Hint: Blog Title
+      Value: Title Space Test
+    - ID: "c7a807af-f4c0-4294-8ce9-29551c8d7f0d"
+      Hint: Blog Author
+      Value: "{63DB27FC-4916-4260-8FEF-CF26A191EAB6}"
+    - ID: "ee125aa7-7e10-4db9-b36f-259c5c08eff7"
+      Hint: Blog Category
+      Type: Multilist
+      Value: "{FC7A520E-760F-4B76-9399-B6939AEBE61B}"
+    - ID: "f82a2a6c-cf30-478f-9676-46170e5c7746"
+      Hint: Blog Created
+      Value: 20190618T140400Z

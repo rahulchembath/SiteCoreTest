@@ -1,0 +1,35 @@
+﻿
+@using Claro.Feature.Blog.Models
+@using Claro.Foundation.Dictionary.Extensions
+@model List<CommentViewModel>
+@if (Model != null && Model.Any())
+{
+    <section class="comments-list mt-5 mb-5 wow bounceInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="dropdown">
+                        <a data-toggle="collapse" data-target="#commentList" href="#" class="btn-block dropdown-toggle sorting text-center">
+                            @Html.Sitecore().Dictionary("/Blog/SeeComment/TextForSeeCommentLabel", "See Comments")&nbsp;@Model.Count <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comment List Item Start-->
+            <div id="commentList" class="collapse">
+                @foreach (var comment in Model)
+                {
+                    <div class="row CommentList">
+                        <div class="col-md-12 col-sm-12  col-xs-12">
+                            <h3>@comment.FirstName&nbsp;@comment.LastName <span>@(comment.Created == DateTime.MinValue ? "" : comment.Created.ToString("MMM dd, yyyy"))</span></h3>
+                            <p>@comment.Comment</p>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- Comment List Item End-->
+        </div>
+    </section>
+}

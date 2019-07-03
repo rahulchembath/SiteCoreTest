@@ -1,0 +1,28 @@
+﻿---
+ID: "5b28dc16-04fa-43c1-bb18-2e42219c8731"
+Parent: "7bf5654a-d501-406a-9f04-73df21f29f2b"
+Template: "7bf5654a-d501-406a-9f04-73df21f29f2b"
+Path: /sitecore/templates/Project/Common/Content Types/Data/Comment/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B4F1A1-3933-43F5-B825-F68D91F65ACB}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{E9B4F1A1-3933-43F5-B825-F68D91F65ACB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190409T035246Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{D3BF1C74-0DC3-4E84-BCB1-10B047997082}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

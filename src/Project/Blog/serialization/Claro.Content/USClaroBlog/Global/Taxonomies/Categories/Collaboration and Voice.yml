@@ -1,0 +1,24 @@
+﻿---
+ID: "c7f5f68f-ffe6-4d63-bb46-531483f6d534"
+Parent: "318212dc-c7f3-4a71-b81f-60529c7cd39b"
+Template: "3ecde112-5a06-4fd5-828c-3e829b8f5a14"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Categories/Collaboration and Voice
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01c53b2a-b6ec-45af-a29e-1f791dc9641d"
+      Hint: Category Title
+      Value: Collaboration & Voice
+    - ID: "0b216ac4-bd7c-4468-8bc6-f89c8e9df7c0"
+      Hint: Category Url
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="Collaboration &amp; Voice" id="{4E9724A1-CADB-4331-906C-FC7FCE064C05}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190402T085433Z
+    - ID: "b6e6601d-4236-460a-ba0c-7815a04660fb"
+      Hint: Display Order
+      Value: 2

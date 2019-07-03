@@ -1,0 +1,23 @@
+﻿---
+ID: "7fc2945c-70be-45a0-abe1-f1085b6bf226"
+Parent: "0a3963e8-658d-4c47-90a0-9299f8373e54"
+Template: "0a3963e8-658d-4c47-90a0-9299f8373e54"
+Path: /sitecore/templates/Project/Common/Content Types/Folders/Subscribe Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{162333DB-54AC-47BD-89C4-BCD19888BD2A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190404T145554Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

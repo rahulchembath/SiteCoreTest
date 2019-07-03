@@ -1,0 +1,26 @@
+﻿---
+ID: "1d5d1d84-c5d9-4ec1-84a9-6ffc097c048a"
+Parent: "45d5137e-eeaf-4c5c-9897-b368f563022e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/UsClaroBlog/Content Types/SiteRoot
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/environment.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {805C1E14-6BEC-4C92-A524-F0D09E46BBB3}
+    {A03DDFB6-5952-471A-945E-50A52A5E0C73}
+    {CDF85460-6419-4403-ABD6-88A644505B22}
+    {68754EC2-BE46-48A8-8AD2-C9AE87597C0C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T061012Z

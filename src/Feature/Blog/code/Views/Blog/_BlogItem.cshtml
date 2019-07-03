@@ -1,0 +1,36 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Feature.Blog
+@model BlogListViewModel
+
+@if (Model != null)
+{
+    if (Model.IsQuotesRequired)
+    {
+        int count = 1;
+        foreach (BlogViewModel blog in Model.Blogs)
+        {
+            if (count == Model.QuotePosition)
+            {
+                @Html.Partial(Constants.QuoteViewName, Model)
+            }
+            <div class="col-lg-4 col-md-6 mb-2 wow bounceInUp">
+                @Html.Partial(Constants.BlogViewName, blog)
+            </div>
+            count++;
+        }
+        if (count == Model.QuotePosition)
+        {
+            @Html.Partial(Constants.QuoteViewName, Model)
+        }
+    }
+    else
+    {
+        foreach (BlogViewModel blog in Model.Blogs)
+        {
+            <div class="col-lg-4 col-md-6 mb-2 wow bounceInUp">
+                @Html.Partial(Constants.BlogViewName, blog)
+            </div>
+        }
+    }
+}
+

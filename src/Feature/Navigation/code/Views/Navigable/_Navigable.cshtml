@@ -1,0 +1,39 @@
+﻿@model Claro.Feature.Navigation.Models.INavigableFolder
+<ul class="scrolled">
+    @{
+        string activeItem = "";
+        var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
+        if (rc != null)
+        {
+            activeItem = rc.Rendering.Parameters["Active"];
+        }
+    }
+    @foreach (var item in Model.NavigableItem.OrderBy(ord => ord.DisplayOrder))
+    {
+        if (item.Childrens.Count() > 0)
+        {
+            <li class="main-link @(activeItem==item.NavigationTitle? "active":"")">
+                <a href="javascript:;">@item.NavigationTitle</a><span class="has-sub"></span>
+                <div class="submenu">
+                    <ul class="columns">
+                        <li class="col-lg-6 offset-lg-3 col-sm-12">
+                            <ul class="c_devide">
+                                @foreach (var childItem in item.Childrens.OrderBy(ord => ord.DisplayOrder))
+                                {
+                                <li>
+                                    <a href="@(childItem.NavigationUrl == null ? "#" : childItem.NavigationUrl.Url + "?category="+Server.UrlEncode(childItem.NavigationUrl.Query))">@childItem.NavigationTitle</a>
+                                </li>
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        }
+        else
+        {
+            <li class="main-link @(activeItem==item.NavigationTitle? "active":"")"><a href="@(item.NavigationUrl == null ? "#" : item.NavigationUrl.Url)">@item.NavigationTitle</a></li>
+        }
+    }
+
+</ul>

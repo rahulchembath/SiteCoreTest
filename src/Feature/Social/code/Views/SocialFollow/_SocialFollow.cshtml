@@ -1,0 +1,14 @@
+﻿@model Claro.Feature.Social.Models.ISocialFollowFolder
+@using Claro.Foundation.Dictionary.Extensions
+@if (Model != null && Model.SocialFollow.Count() > 0)
+{
+    <h2> @Html.Sitecore().Dictionary("/Social/SocialFollow/HeaderText", "Follow us")</h2>
+    <div class="footer-social">
+        <ul>
+            @foreach (var item in Model.SocialFollow.OrderBy(ord => ord.DisplayOrder))
+            {
+                <li><a href="@(item.SocialMediaUrl != null? item.SocialMediaUrl.Url:"")" target="_blank" class="ico @item.SocialMediaName"></a></li>
+            }
+        </ul>
+    </div>
+}

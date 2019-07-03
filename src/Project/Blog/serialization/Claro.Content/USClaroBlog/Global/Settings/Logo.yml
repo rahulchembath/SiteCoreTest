@@ -1,0 +1,19 @@
+﻿---
+ID: "da2ee58c-e0f8-4d28-a2dd-1b0a120c380a"
+Parent: "8177ddaf-6320-4988-997c-2be25b9b66ef"
+Template: "8b873524-7942-46a2-b95c-d0d297dbeac8"
+Path: /sitecore/content/USClaroBlog/Global/Settings/Logo
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{DF4BC46E-9562-448C-9082-22A5AD2485D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190327T052635Z

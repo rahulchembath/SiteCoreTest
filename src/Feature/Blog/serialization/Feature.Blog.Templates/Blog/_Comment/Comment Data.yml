@@ -1,0 +1,14 @@
+﻿---
+ID: "076086d7-0f74-4414-a596-f5b1c363d48c"
+Parent: "338a1a0a-1034-4fe4-be29-28fbd7aa5d32"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Blog/_Comment/Comment Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T102506Z

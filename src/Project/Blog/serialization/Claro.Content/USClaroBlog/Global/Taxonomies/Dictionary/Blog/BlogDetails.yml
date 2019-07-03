@@ -1,0 +1,14 @@
+﻿---
+ID: "334244ea-cf38-41eb-9c02-e15b0285f99d"
+Parent: "50c859af-07ac-4b16-b575-840ac3e4c719"
+Template: "2d011ea3-70fa-4eb4-9518-b89e3b99fd85"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Dictionary/Blog/BlogDetails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190426T120437Z

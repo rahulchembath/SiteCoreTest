@@ -1,0 +1,17 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Foundation.Dictionary.Extensions
+@model BlogListViewModel
+<div class="col-lg-8 col-md-6 mb-2  wow bounceInUp card-quote">
+    <div class="mb-4">
+        <h2 class="text-highlight @(Model.IsQuoteLocationRight?"text-right":"text-left")">
+            @Model.Quote
+            <small class="quote_author_name">
+                @if (!string.IsNullOrEmpty(Model.QuotesAuthor))
+                {
+                    @Html.Sitecore().Dictionary("/Blog/Quote/TextForByLabel", "By")@:&nbsp;@Model.QuotesAuthor
+                }
+            </small>
+        </h2>
+
+    </div>
+</div>

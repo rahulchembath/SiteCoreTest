@@ -1,0 +1,14 @@
+﻿---
+ID: "ba2d1015-91b0-456e-b145-6f1b4d15c35a"
+Parent: "576c1b10-289b-4470-8511-9b738334a5e0"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/06/18/14
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190618T140301Z

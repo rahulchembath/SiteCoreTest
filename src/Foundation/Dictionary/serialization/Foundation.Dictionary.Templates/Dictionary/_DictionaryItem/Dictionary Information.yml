@@ -1,0 +1,14 @@
+﻿---
+ID: "562b964a-d338-40b3-9f67-0fdf7f099fd2"
+Parent: "0254a6f0-1657-46a3-9476-1d95d03bb5bf"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Dictionary/_DictionaryItem/Dictionary Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190329T061941Z

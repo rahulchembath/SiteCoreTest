@@ -1,0 +1,19 @@
+﻿---
+ID: "f96137c1-3c63-4244-8fd1-37c06de83f6a"
+Parent: "bb7dbe47-c32f-4c20-b29b-f697cecde57c"
+Template: "12259ee1-0a19-4e5f-8b4e-d6247af47017"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Authors
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{D4F7A392-01B1-4DFB-A136-A68150662F2B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T135402Z

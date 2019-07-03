@@ -1,0 +1,95 @@
+﻿---
+ID: "4e9724a1-cadb-4331-906c-fc7fce064c05"
+Parent: "0f809a3a-fd81-4515-8a56-fb25e243ab8f"
+Template: "dc0e0504-f474-4ed9-ab24-7a00487de15a"
+Path: /sitecore/content/USClaroBlog/Home/Category
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Shop (1).png
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{F10DDA44-C045-4071-A6AE-1FB4BFF2FE8E}">
+        <r
+          id="{EB449E06-3FA3-4AA6-AD74-CBDD37453BAC}"
+          ph="header-content"
+          uid="{AF313EB3-3CC4-48EF-8E3A-2F4321C0F593}" />
+        <r
+          ds="{B7E32BAC-BA80-431A-AE99-2FDF88FA8CC0}"
+          id="{52DBE1CB-DA43-4B79-B403-E4AA3552DCEF}"
+          par=""
+          ph="logo"
+          uid="{2FDDCB41-7D9D-469F-AFBC-0617F46A8723}" />
+        <r
+          ds="{B7E32BAC-BA80-431A-AE99-2FDF88FA8CC0}"
+          id="{56556169-491C-473E-95C1-AFC5C033E737}"
+          par=""
+          ph="hamburger-logo"
+          uid="{76484804-FCB3-41A8-9D33-41184024DC6E}" />
+        <r
+          ds="{616DE7B8-573D-4AB6-9FB3-6C1103033A93}"
+          id="{DF6DFF7B-3410-4C05-8A8E-BAA51261763B}"
+          par="Active=Categories"
+          ph="nav-links"
+          uid="{81D0EF6C-D5DA-4B48-B4C3-75178DAFD70C}" />
+        <r
+          ds="{3524B013-E2BC-44D3-9F97-0F44C7457732}"
+          id="{83D61548-3F53-4956-8BFB-F9CAEFA7B533}"
+          par=""
+          ph="slogan"
+          uid="{EE9059DC-4EFD-42AD-8FE0-60FE1C5F02B5}" />
+        <r
+          id="{B9244485-6496-41A5-9ECF-AFAA53BADFD8}"
+          ph="main-content"
+          uid="{4BD76B49-67D6-4C76-B3BD-1AAEFEBCCA9B}" />
+        <r
+          id="{A2BBEBB6-1A8C-4C05-8520-E794D71643B3}"
+          ph="upper-content"
+          uid="{63AF6753-F38E-4C34-8B8E-5F713DD680B0}" />
+        <r
+          id="{C21A73F0-9C80-4AA1-80E6-FFFC652D2224}"
+          ph="upper-content"
+          uid="{1C0CA7AE-234A-41DE-A264-E6295154D504}" />
+        <r
+          id="{F3896ED6-18C7-47AB-99B2-516FCA8A5186}"
+          ph="left-content"
+          uid="{A4739E71-500D-49AA-95CF-DCD0C63166DB}" />
+        <r
+          ds="{318212DC-C7F3-4A71-B81F-60529C7CD39B}"
+          id="{E7EDCAAB-21F6-4249-B7B9-7A4580139937}"
+          par="header_text=All%20Categories"
+          ph="right-content"
+          uid="{F4D3C591-16BE-44AF-BAA7-03076AC6FD6F}" />
+        <r
+          id="{7414DE24-BD20-491F-8EB4-ABE8A4C56EFD}"
+          ph="lower-content"
+          uid="{B55B41FD-B82B-4311-B074-C182C53AB75A}" />
+        <r
+          id="{952A697B-3FE5-46A5-9DB9-353C30A6A843}"
+          ph="main-content"
+          uid="{9E6C9065-41F7-42F0-9D31-EE1DAFA31333}" />
+        <r
+          ds=""
+          id="{3B1DDB68-5EF3-44D0-9B9D-33DC26501E5E}"
+          par=""
+          ph="main-content"
+          uid="{4FEE2A82-A849-401B-B468-5246AA0D499F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190425T045812Z
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: Category

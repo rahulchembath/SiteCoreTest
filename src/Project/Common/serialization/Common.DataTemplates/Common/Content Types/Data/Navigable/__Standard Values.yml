@@ -1,0 +1,27 @@
+﻿---
+ID: "9418fc3e-ed44-4c8d-b895-ad7513378ea5"
+Parent: "31978245-b101-479c-ba92-43d5eb00e60e"
+Template: "31978245-b101-479c-ba92-43d5eb00e60e"
+Path: /sitecore/templates/Project/Common/Content Types/Data/Navigable/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{31978245-B101-479C-BA92-43D5EB00E60E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T032635Z
+    - ID: "31219897-98fd-4170-a360-4b73087ebc94"
+      Hint: Include in Navigation
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

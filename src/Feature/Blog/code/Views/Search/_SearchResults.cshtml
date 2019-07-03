@@ -1,0 +1,35 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Feature.Blog
+@using Claro.Foundation.Assets.Services
+@using Claro.Foundation.Dictionary.Extensions
+@model BlogListViewModel
+<section class="article_blog searchblog">
+    <div class="container">
+        @if (Model != null && Model.Blogs != null && Model.Blogs.Any())
+        {
+            <div class="row no-gutters">
+                <div class="col-md-12 col-sm-12 searchtitle wow bounceInUp">
+                    <h3>@Html.Sitecore().Dictionary("/Blog/SearchResult/SearchResultLabel", "Search Results")</h3>
+                    <h4>@Html.Sitecore().Dictionary("/Blog/SearchResult/SearchResultText", "Here are the results for your search")</h4>
+                </div>
+            </div>
+            <div class="row row-flex" id="blgSearchResults">
+                @Html.Partial(Constants.SearchBlogResultsViewName, Model)
+            </div>
+            <div id="divLoader" style="display:none;"> <img src="/images/ajax-loader.gif" alt="Loader" /> </div>
+            if (Model.Blogs != null && Model.Blogs.Count == Constants.NoOfBlogs)
+            {
+                AssetsService.Current.Resource("<script src =\"/js/searchblog.js\"></script>", Constants.SearchBlogJs);
+            }
+        }
+        else
+        {
+            <div class="row no-gutters">
+                <div class="col-md-12 col-sm-12 searchtitle wow bounceInUp">
+                    <h3>@Html.Sitecore().Dictionary("/Blog/SearchResult/NoResultsFoundText", "No Search Results Found")</h3>
+                </div>
+            </div>
+
+        }
+    </div>
+</section>

@@ -1,0 +1,14 @@
+﻿---
+ID: "fa8f1b34-498d-4456-907e-e4a9ea2c530d"
+Parent: "deab71d8-5b3c-4cb6-8ac8-02e6545251fc"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Blog/_Quote/Quote Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T100518Z

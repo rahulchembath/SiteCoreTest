@@ -1,0 +1,14 @@
+﻿---
+ID: "e2ae1386-3c88-4688-a614-bdc7609f4164"
+Parent: "bb7dbe47-c32f-4c20-b29b-f697cecde57c"
+Template: "4c456ce1-5da9-43cb-8217-28f48c55b05d"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Social Media Follow
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190412T105759Z

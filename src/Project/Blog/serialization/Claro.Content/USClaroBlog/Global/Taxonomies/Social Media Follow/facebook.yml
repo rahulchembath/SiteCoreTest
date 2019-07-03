@@ -1,0 +1,24 @@
+﻿---
+ID: "c3a84b07-ebbe-43b1-ac57-e85df17637f8"
+Parent: "e2ae1386-3c88-4688-a614-bdc7609f4164"
+Template: "1cf61c16-8297-43fd-a0bd-2ac1136c9088"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Social Media Follow/facebook
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190412T105922Z
+    - ID: "3a5686af-440a-4280-a612-4c50eedde164"
+      Hint: Display Order
+      Value: 1
+    - ID: "3ef2ab76-fe62-4051-824d-5b3e0cb30af2"
+      Hint: Social Media Class Name
+      Value: fb
+    - ID: "674dbacf-d342-436b-be6a-e0df2a489bff"
+      Hint: Social Media Url
+      Value: |
+        <link linktype="external" url="https://www.facebook.com/USClaro/" />

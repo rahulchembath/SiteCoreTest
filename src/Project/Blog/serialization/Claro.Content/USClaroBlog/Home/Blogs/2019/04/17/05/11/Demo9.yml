@@ -1,0 +1,34 @@
+﻿---
+ID: "08de74f0-4c26-4c16-8248-a111ec465e23"
+Parent: "3009468e-6df6-4bcd-8bae-79638d5afa2f"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/04/17/05/11/Demo9
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190417T051108Z
+    - ID: "3835a22f-8e14-4712-9873-30667ec7fd7a"
+      Hint: Blog Image
+      Value: |
+        <image mediaid="{3A8D2C74-4B50-48B2-A9F2-CF9350663577}" />
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: Demo9
+    - ID: "b13291fc-be7f-4344-8318-82a83f0af21c"
+      Hint: Blog Title
+      Value: Duis aute irure reprehenderit in voluptate velit esse. 
+    - ID: "c7a807af-f4c0-4294-8ce9-29551c8d7f0d"
+      Hint: Blog Author
+      Value: "{7D5819AB-7F46-42E3-9C20-C1F1C12CF2A8}"
+    - ID: "ee125aa7-7e10-4db9-b36f-259c5c08eff7"
+      Hint: Blog Category
+      Type: Multilist
+      Value: "{FC7A520E-760F-4B76-9399-B6939AEBE61B}"
+    - ID: "f82a2a6c-cf30-478f-9676-46170e5c7746"
+      Hint: Blog Created
+      Value: 20190130T183000Z

@@ -1,0 +1,49 @@
+﻿---
+ID: "ed913efb-39bf-4f38-b847-fa23dd33fd86"
+Parent: "97baf776-d589-4c92-bf8a-5d500e591cee"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/05/15/05/23/Test collaboration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07585cb4-f907-4bd6-8aa1-32ab83eeacfd"
+      Hint: Blog Landing Box Image
+      Value: 
+    - ID: "0f89f034-960d-4f0d-9eda-3570d064b592"
+      Hint: Blog Intro
+      Value: Test CollaborationTest CollaborationTest CollaborationTest CollaborationTest CollaborationTest CollaborationTest CollaborationTest Collaboration
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190515T052350Z
+    - ID: "3761d754-0c37-4864-95ec-7658dd089b6b"
+      Hint: Blog Description
+      Value: <span><strong>Test Collaboration</strong></span><strong><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span></strong><span><strong>Test</strong> Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span><span>Test Collaboration</span>
+    - ID: "3835a22f-8e14-4712-9873-30667ec7fd7a"
+      Hint: Blog Featured Image
+      Value: 
+    - ID: "3cb1ffd6-c4e2-43f7-a4aa-97356b6c30dc"
+      Hint: Blog Hero Image
+      Value: 
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: Test collaboration
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b13291fc-be7f-4344-8318-82a83f0af21c"
+      Hint: Blog Title
+      Value: Test Collaboration
+    - ID: "c7a807af-f4c0-4294-8ce9-29551c8d7f0d"
+      Hint: Blog Author
+      Value: "{63DB27FC-4916-4260-8FEF-CF26A191EAB6}"
+    - ID: "ee125aa7-7e10-4db9-b36f-259c5c08eff7"
+      Hint: Blog Category
+      Type: Multilist
+      Value: "{C7F5F68F-FFE6-4D63-BB46-531483F6D534}"
+    - ID: "f82a2a6c-cf30-478f-9676-46170e5c7746"
+      Hint: Blog Created
+      Value: 20190514T190000Z

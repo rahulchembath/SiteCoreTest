@@ -1,0 +1,28 @@
+﻿---
+ID: "3f5c9da4-8eaa-4cb5-96a5-81a0e85efa48"
+Parent: "8ced37cd-9202-4ac2-9e56-9925a8da1f79"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/Common/right-content"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "right-content"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {E3E7C60D-E5F1-4394-83F4-0838B9C40065}
+    {7B44CF03-E19F-4B8F-8078-499B8931DCAA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190413T072809Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

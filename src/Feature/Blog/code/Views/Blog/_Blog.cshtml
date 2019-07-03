@@ -1,0 +1,36 @@
+﻿@using Claro.Foundation.Dictionary.Extensions
+@model Claro.Feature.Blog.Models.BlogViewModel
+@if (Model != null)
+{
+    <div class="card mb-4">
+        @Model.BlogImage
+        @if (string.IsNullOrEmpty(Model.BlogImage.ToString()))
+        {
+            <img src="/images/NoImage.png" alt="No Image" />
+        }
+        <div class="featured-article-view-comments">
+            @*<i class="fa fa-eye"></i> <span class="count">@Model.ViewCount</span>*@
+            <i class="fa fa-comments"></i> <span class="count">@Model.CommentCount</span>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="@Model.BlogUrl"><div class="two-lines">@Model.Title</div></a> <br />
+            </h4>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+            <div class="row no-gutters">
+                <div class="col-4 col-sm-2 col-md-4"> @Model.AuthorImage </div>
+                <div class="col-8 col-sm-10 col-md-8">
+                    <div class="article-author-det">
+                        <div class="name">
+                            @Model.AuthorFirstName&nbsp;@Model.AuthorLastName
+                        </div>
+                        <h6>@(Model.BlogCreated == DateTime.MinValue ? "" : Model.BlogCreated.ToString("MMM dd, yyyy"))</h6>
+                        <hr />
+                        <p class="two-lines">@Model.AuthorDescription</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

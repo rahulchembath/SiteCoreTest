@@ -1,0 +1,14 @@
+﻿---
+ID: "616de7b8-573d-4ab6-9fb3-6c1103033a93"
+Parent: "8177ddaf-6320-4988-997c-2be25b9b66ef"
+Template: "5788b2ea-194d-4c53-a2e6-175e06a36366"
+Path: /sitecore/content/USClaroBlog/Global/Settings/Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T140450Z

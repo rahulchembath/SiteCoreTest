@@ -1,0 +1,46 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Feature.Blog
+@using Claro.Foundation.Dictionary.Extensions
+@model IBlog
+@if (Model != null && Model.SocialShares.Count() > 0)
+{
+    <section class="sidebar_block">
+        <h3>@Html.Sitecore().Dictionary("/Blog/BlogSocialShare/SocialShareHeaderText", "Share")</h3>
+        <div class="footer-social">
+            <ul>
+                @foreach (var socialShare in Model.SocialShares.OrderBy(item => item.DisplayOrder))
+                {
+                    if (socialShare.ItemName == Constants.FacebookName)
+                    {
+                        <li>
+                            <a href="#"
+                               onclick="window.open('@Constants.FacebookShareLink?u='+encodeURIComponent(location.href)+'&t=@Model.Name','facebook-share-dialog','width=626,height=436');return false;">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                    }
+                    else if (socialShare.ItemName == Constants.TwitterName)
+                    {
+                        <li>
+                            <a href="#"
+                               onclick="window.open('@Constants.TwitterShareLink?text=@Model.Name&url='+encodeURIComponent(location.href),'twitter-share-dialog','width=626,height=436');return false;">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                    }
+                    else if (socialShare.ItemName == Constants.LinkedIn)
+                    {
+                        <li>
+                            <a href="#"
+                               onclick="window.open('@Constants.LinkedInShareLink?mini=true&&url='+encodeURIComponent(location.href)+'&title=@Model.Name','linkedin-share-dialog','width=626,height=436');return false;">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+    </section>
+    <div class="p-3"></div>
+
+}

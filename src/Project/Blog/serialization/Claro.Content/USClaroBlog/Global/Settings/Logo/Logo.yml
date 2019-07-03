@@ -1,0 +1,26 @@
+﻿---
+ID: "b7e32bac-ba80-431a-ae99-2fdf88fa8cc0"
+Parent: "da2ee58c-e0f8-4d28-a2dd-1b0a120c380a"
+Template: "df4bc46e-9562-448c-9082-22a5ad2485d0"
+Path: /sitecore/content/USClaroBlog/Global/Settings/Logo/Logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21851c07-fa8a-45b1-9471-5cacb5f3ad5c"
+      Hint: Logo Image
+      Value: |
+        <image mediaid="{466B4DBF-B831-4805-AC0D-BB486CE7A4C7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190327T052707Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b5a10b76-3e49-4b6e-9bcf-a8f1758a711b"
+      Hint: Logo Url
+      Value: |
+        <link linktype="internal" />

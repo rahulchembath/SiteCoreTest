@@ -1,0 +1,24 @@
+﻿---
+ID: "608c44c6-2c0e-47c9-842b-56bbdd4be30e"
+Parent: "665d5966-35d7-490d-b916-b36003e9250b"
+Template: "d87106f5-4b2a-461b-a92f-303efe2a1d2c"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Dictionary/Blog/BlogSocialShare/SocialShareHeaderText
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04e658ee-a9c3-42dc-9457-c96250b4fff4"
+      Hint: Value
+      Value: Share
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190429T112915Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f1db7ad6-2719-4d5e-999c-9268d1dc8730"
+      Hint: Key
+      Value: SocialShareHeaderText

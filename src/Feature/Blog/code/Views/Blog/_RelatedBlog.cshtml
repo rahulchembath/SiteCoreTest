@@ -1,0 +1,37 @@
+﻿@using Claro.Foundation.Dictionary.Extensions
+@using Claro.Feature.Blog.Models
+@using Claro.Feature.Blog
+@model BlogViewModel
+@if (Model != null)
+{
+    var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
+    string headerText = string.Empty;
+    bool isMobileOnly = false;
+    if (rc != null)
+    {
+        string isMobile = rc.Rendering.Parameters[Constants.OnlyInMobile];
+        if (!string.IsNullOrEmpty(isMobile))
+        {
+            isMobileOnly = Convert.ToBoolean(isMobile);
+        }
+    }
+    if (isMobileOnly)
+    {
+        <section class="container d-md-none d-lg-none">
+            <div class="p-3"></div>
+            <section class="sidebar_block article_related_blcok">
+                <h3>@Html.Sitecore().Dictionary("/Blog/BlogDetails/RelatedStoryText", "Related Story")</h3>
+                @Html.Partial(Constants.BlogViewName, Model)
+            </section>
+        </section>
+    }
+    else
+    {
+        <div class="d-none d-md-block">
+            <section class="sidebar_block article_related_blcok">
+                <h3>@Html.Sitecore().Dictionary("/Blog/BlogDetails/RelatedStoryText", "Related Story")</h3>
+                @Html.Partial(Constants.BlogViewName, Model)
+            </section>
+        </div>
+    }
+}

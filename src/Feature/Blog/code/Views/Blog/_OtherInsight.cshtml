@@ -1,0 +1,33 @@
+﻿@using Claro.Feature.Blog.Models
+@using Claro.Feature.Blog
+@using Claro.Foundation.Assets.Services
+@using Claro.Foundation.Dictionary.Extensions
+@model List<BlogViewModel>
+
+@if (Model != null && Model.Any())
+{
+    <section class="about-author mt-5 mb-5 wow bounceInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>@Html.Sitecore().Dictionary("/Blog/OtherInsight/OtherInsightLabelText", "Other Insights you might like")</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="owl-carousel owl-theme">
+                        @foreach (var blog in Model)
+                        {
+                            <div class="item">
+                                @Html.Partial(Constants.BlogViewName, blog)
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    AssetsService.Current.Resource("<script src=\"/js/OtherInsight.js\"></script>", "OtherInsightJs");
+}
+

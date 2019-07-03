@@ -1,0 +1,14 @@
+﻿---
+ID: "530c6d83-fff1-4c9c-966e-dcf3fffdafc5"
+Parent: "cdf85460-6419-4403-abd6-88a644505b22"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Settings/_ItemPathSettings/Url Configuration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190416T105048Z

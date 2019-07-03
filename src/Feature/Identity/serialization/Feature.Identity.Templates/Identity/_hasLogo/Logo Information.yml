@@ -1,0 +1,14 @@
+﻿---
+ID: "9621ca44-06c2-446a-89cf-04c91fe45c4e"
+Parent: "ebdeb572-645e-4bdc-bf62-dbb94d99f285"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Identity/_hasLogo/Logo Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T070758Z

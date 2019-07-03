@@ -1,0 +1,18 @@
+﻿---
+ID: "80dbef9b-000a-4ae5-9341-2cd567b69e4e"
+Parent: "50c859af-07ac-4b16-b575-840ac3e4c719"
+Template: "2d011ea3-70fa-4eb4-9518-b89e3b99fd85"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Dictionary/Blog/SeeComment
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190517T055951Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

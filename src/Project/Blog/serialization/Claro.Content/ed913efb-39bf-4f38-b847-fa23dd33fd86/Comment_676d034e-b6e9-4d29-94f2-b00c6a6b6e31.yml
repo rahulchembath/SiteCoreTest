@@ -1,0 +1,40 @@
+﻿---
+ID: "676d034e-b6e9-4d29-94f2-b00c6a6b6e31"
+Parent: "ed913efb-39bf-4f38-b847-fa23dd33fd86"
+Template: "7bf5654a-d501-406a-9f04-73df21f29f2b"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/05/15/05/23/Test collaboration/Comment
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B4F1A1-3933-43F5-B825-F68D91F65ACB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0acf5d5b-de47-4e45-8ed3-6693f75cd6f7"
+      Hint: Comments
+      Value: test success
+    - ID: "13cc1fd3-4380-48eb-bff8-cedcb3559f62"
+      Hint: First Name
+      Value: test
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190530T113056Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{3DB823E7-4DA4-4CA6-8AB9-5DAEE14F2D72}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        LinkedIn\DE2ZoGL9NW
+    - ID: "8704636f-b7a4-4a54-81c9-0acd6f773ed1"
+      Hint: Last Name
+      Value: test
+    - ID: "de3f4ac5-3c21-41f6-8a88-0393792298ec"
+      Hint: Company Name
+      Value: test
+    - ID: "fa019e72-a15e-47ab-969f-da75aadb58bc"
+      Hint: Email
+      Value: test@test.com

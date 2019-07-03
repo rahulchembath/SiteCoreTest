@@ -1,0 +1,22 @@
+﻿---
+ID: "1517d929-30cc-4a2c-89cb-a6af2e2219cd"
+Parent: "75b010da-ff29-4879-8362-92f3ccc8737d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Blog/_Category
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{805C1E14-6BEC-4C92-A524-F0D09E46BBB3}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{64D76653-369F-400A-860F-168939DBF241}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T073044Z

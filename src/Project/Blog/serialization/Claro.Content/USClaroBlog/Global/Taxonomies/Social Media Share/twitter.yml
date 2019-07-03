@@ -1,0 +1,20 @@
+﻿---
+ID: "0d281e04-d8a0-4bcc-ba6f-00e727940d94"
+Parent: "23d32cdc-a746-4e24-9406-674eb5db48d9"
+Template: "8274ba8d-c940-41f6-90fb-a5277b869830"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Social Media Share/twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190429T084941Z
+    - ID: "a4be1023-c00d-4b6c-b1ba-816403ea3d8d"
+      Hint: DisplayOrder
+      Value: 2
+    - ID: "a8e05ca3-dad7-48b1-b300-9c517b04e32a"
+      Hint: ItemName
+      Value: twitter

@@ -1,0 +1,22 @@
+﻿---
+ID: "c21a73f0-9c80-4aa1-80e6-fffc652d2224"
+Parent: "49f905d6-5d03-4e43-901b-2111639ed8c0"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: "/sitecore/layout/Renderings/Project/USClaroBlog/2Column8-4"
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: "/Views/SubLayouts/2 Column 8-4.cshtml"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190410T143708Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

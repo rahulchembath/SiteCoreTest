@@ -1,0 +1,29 @@
+﻿---
+ID: "965a34cd-90cf-459f-9ad0-5b0c261b19ff"
+Parent: "c6b534e0-d9d5-4004-8243-a615d3f1489b"
+Template: "162333db-54ac-47bd-89c4-bcd19888bd2a"
+Path: /sitecore/content/USClaroBlog/Global/Content/Subscribe/Subscribe
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190413T071028Z
+    - ID: "3e8de9ea-5427-49f8-ab43-6924cfdf4336"
+      Hint: Salesforce Link
+      Value: |
+        <link linktype="external" url="https://forms.usclaro.com/subs_block" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a15b8a70-a6b5-48df-a24d-7c28a5660809"
+      Hint: Benefit
+      Value: |
+        1.Subscribe for more access.
+        2.Free usage.
+        3.Better usability
+        4.Benefits

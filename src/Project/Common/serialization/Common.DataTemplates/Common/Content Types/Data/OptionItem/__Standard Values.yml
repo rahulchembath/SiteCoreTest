@@ -1,0 +1,21 @@
+﻿---
+ID: "bce97e55-76a0-4db9-bdc1-1c5bcbf2ce91"
+Parent: "8274ba8d-c940-41f6-90fb-a5277b869830"
+Template: "8274ba8d-c940-41f6-90fb-a5277b869830"
+Path: /sitecore/templates/Project/Common/Content Types/Data/OptionItem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190429T084858Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a8e05ca3-dad7-48b1-b300-9c517b04e32a"
+      Hint: ItemName
+      Value: $name

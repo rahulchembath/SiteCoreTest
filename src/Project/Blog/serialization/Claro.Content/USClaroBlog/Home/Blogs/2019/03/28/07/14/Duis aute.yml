@@ -1,0 +1,65 @@
+﻿---
+ID: "50d53a65-ab1c-4952-8404-4016badb4d63"
+Parent: "f8eb224d-c7e9-4d5d-81c0-340a5e130eb6"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/03/28/07/14/Duis aute
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f89f034-960d-4f0d-9eda-3570d064b592"
+      Hint: Blog Intro
+      Value:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T071439Z
+    - ID: "3761d754-0c37-4864-95ec-7658dd089b6b"
+      Hint: Blog Description
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <ul>
+            <li>How can networks of intelligent devices help us solve business problems?</li>
+            <li>How do we identify the best candidates for smart device initiatives?</li>
+            <li>How do we achieve benets from quick wins, while building momentum for along-term strategy?</li>
+        </ul>
+        <p>Businesses in a wide range of industries seek to leverage benefits from connected, intelligent devices that continually collect, share and analyze data. The challenge lies in translating long-term visions into short-term results. Indeed, many initiatives fail to achieve gains or move beyond planning and prototype phases, weakening the business case for further investment.</p>
+        <p>Our focused edge solutions bring smart technology directly to the source to address specic problems and dene quantitative measures to gauge results &ndash; with minimal investment. In the process, <strong><em>we establish a foundation for an integrated, enter</em></strong></p>
+        <div class="m-4">
+        <h2 class="text-highlight text-right"> &ldquo;Integer porttitor accumsan facilisis. Nulla aliquam a tristique.&rdquo; <small class="quote_author_name">By Marco Patuano</small> </h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <ul>
+            <li>How can networks of intelligent devices help us solve business problems?</li>
+            <li>How do we identify the best candidates for smart device initiatives?</li>
+            <li>How do we achieve benets from quick wins, while building momentum for along-term strategy?</li>
+        </ul>
+        <p>Businesses in a wide range of industries seek to leverage benets from connected, intelligent devices that continually collect, share and analyze data. The challenge lies in translating long-term visions into short-term results. Indeed, many initiatives fail to achieve gains or move beyond planning and prototype phases, weakening the business case for further investment.</p>
+    - ID: "3835a22f-8e14-4712-9873-30667ec7fd7a"
+      Hint: Blog Image
+      Value: |
+        <image mediaid="{AC6732E7-BC16-42AD-B7DF-409DBA3DCECD}" />
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: Duis aute
+    - ID: "b13291fc-be7f-4344-8318-82a83f0af21c"
+      Hint: Blog Title
+      Value: Duis aute irure reprehenderit in voluptate velit essesss.
+    - ID: "c7a807af-f4c0-4294-8ce9-29551c8d7f0d"
+      Hint: Blog Author
+      Value: "{63DB27FC-4916-4260-8FEF-CF26A191EAB6}"
+    - ID: "ee125aa7-7e10-4db9-b36f-259c5c08eff7"
+      Hint: Blog Category
+      Type: Multilist
+      Value: "{80FAEA0B-B2D7-44B6-A505-D65A617D57AF}"
+    - ID: "f82a2a6c-cf30-478f-9676-46170e5c7746"
+      Hint: Blog Created
+      Value: 20190128T210000Z
+    - ID: "fe3177a8-1768-4936-8a59-5a379ae57604"
+      Hint: Blog Social Share
+      Type: Multilist
+      Value: |
+        {59E67073-8B7B-4C9B-960E-4E37D4173BA7}
+        {72E286F9-AB71-4E78-B094-043BCDD57802}
+        {0D281E04-D8A0-4BCC-BA6F-00E727940D94}

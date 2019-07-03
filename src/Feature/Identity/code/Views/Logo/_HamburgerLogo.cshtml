@@ -1,0 +1,5 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Claro.Feature.Identity.Models.ILogo
+<a href="@(Model.LogoUrl!=null?Model.LogoUrl.Url:"#")" class="header-logo logo-for-big-d">@Html.Glass().RenderImage(item => item.LogoImage, new { @class = "img-fluid" })</a>
+<a class="header-logo logo-for-small-d" href="@(Model.LogoUrl!=null?Model.LogoUrl.Url:"#")"><img src="/images/logo-claro-enterprise-rojo.svg" alt="US Claro" class="img-fluid" /></a>
+<div class="closeNav"></div>

@@ -1,0 +1,15 @@
+﻿@using Claro.Feature.Subscribe.Models
+@using Glass.Mapper.Sc.Web.Mvc
+@model ISubscribe
+@if (Model != null)
+{
+    <div class="card margin20">
+        <div class="card-body">
+            <iframe class="subscribeForm" src="@(Model.SalesforceLink != null ? Model.SalesforceLink.Url : "")" scrolling="no" frameBorder="0"></iframe>
+        </div>
+    </div>
+    <p class="content mt-4 mb-4">
+        @Html.Glass().Editable(item => item.Benefit)
+    </p>
+
+}

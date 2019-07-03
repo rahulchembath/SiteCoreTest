@@ -1,0 +1,14 @@
+﻿---
+ID: "20f64958-1d5b-40f1-8b4f-94f0738fd551"
+Parent: "1517d929-30cc-4a2c-89cb-a6af2e2219cd"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Blog/_Category/Category Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T073357Z

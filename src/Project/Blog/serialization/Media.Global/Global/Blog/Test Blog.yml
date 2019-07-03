@@ -1,0 +1,14 @@
+﻿---
+ID: "a88e705c-5a0c-4805-a0d1-5b4746b50fec"
+Parent: "19675c8a-02cc-40e5-915d-5a40e741dfab"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Global/Blog/Test Blog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T071321Z

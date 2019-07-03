@@ -1,0 +1,50 @@
+﻿---
+ID: "9211a6db-ed12-4eae-81ff-714b9e24dfef"
+Parent: "a6586186-4dd3-478b-b971-2341e95a882f"
+Template: "3bec49fb-df36-4551-86cf-d3c04e58c506"
+Path: /sitecore/content/USClaroBlog/Home/Blogs/2019/04/05/06/57/TestArticle_Ajil
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f89f034-960d-4f0d-9eda-3570d064b592"
+      Hint: Blog Intro
+      Value: Test Blog
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190405T065735Z
+    - ID: "3761d754-0c37-4864-95ec-7658dd089b6b"
+      Hint: Blog Description
+      Value: Test Blog
+    - ID: "3835a22f-8e14-4712-9873-30667ec7fd7a"
+      Hint: Blog Image
+      Value: |
+        <image mediaid="{3A8D2C74-4B50-48B2-A9F2-CF9350663577}" />
+    - ID: "55b016e2-3781-4d58-bf04-09f659b82fe1"
+      Hint: Page Title
+      Value: TestArticle_Ajil
+    - ID: "b13291fc-be7f-4344-8318-82a83f0af21c"
+      Hint: Blog Title
+      Value: Duis aute irure reprehenderit in voluptate velit esse.
+    - ID: "c7a807af-f4c0-4294-8ce9-29551c8d7f0d"
+      Hint: Blog Author
+      Value: "{63DB27FC-4916-4260-8FEF-CF26A191EAB6}"
+    - ID: "ee125aa7-7e10-4db9-b36f-259c5c08eff7"
+      Hint: Blog Category
+      Type: Multilist
+      Value: |
+        {FC7A520E-760F-4B76-9399-B6939AEBE61B}
+        {C7F5F68F-FFE6-4D63-BB46-531483F6D534}
+        {9153019D-AA26-4188-BAC9-F8D51833CC43}
+    - ID: "f82a2a6c-cf30-478f-9676-46170e5c7746"
+      Hint: Blog Created
+      Value: 20190405T065800Z
+    - ID: "fe3177a8-1768-4936-8a59-5a379ae57604"
+      Hint: Blog Social Share
+      Type: Multilist
+      Value: |
+        {59E67073-8B7B-4C9B-960E-4E37D4173BA7}
+        {72E286F9-AB71-4E78-B094-043BCDD57802}
+        {0D281E04-D8A0-4BCC-BA6F-00E727940D94}

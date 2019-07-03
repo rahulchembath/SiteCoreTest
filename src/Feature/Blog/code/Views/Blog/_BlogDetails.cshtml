@@ -1,0 +1,41 @@
+﻿@using Claro.Feature.Blog.Models
+@model BlogDetailViewModel
+@if (Model != null)
+{
+    <div class="body-content-margin">
+        <section class="article_bg  m-0 p-0">
+            @Model.BlogImage
+            @if (string.IsNullOrEmpty(Model.BlogImage.ToString()))
+            {
+                <img src="/images/NoImage.png" alt="No Image" />
+            }
+        </section>
+        <section class="article_details p-0">
+            <div class="container">
+                <article class="article_block wow bounceInUp">
+                    <div class="row">
+                        <!--Featured article -->
+                        <div class="col-md-8 ">
+                            <!-- Article Text -->
+                            <div class="card details">
+                                <div class="card-body">
+                                    <div class="card-content">
+                                        <h1 class="card-title"> @Model.Title</h1>
+                                        <h6 class="mb-3">@(Model.BlogCreated == DateTime.MinValue ? "" : Model.BlogCreated.ToString("MMM dd, yyyy"))</h6>
+                                        @Model.Description
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Article Text -->
+                        </div>
+                        <div class="col-md-4">
+                            @Html.Sitecore().Placeholder("right-content")
+                        </div>
+                        <!--Featured article -->
+                    </div>
+                </article>
+            </div>
+        </section>
+        @Html.Sitecore().Placeholder("blog-lower-content")
+    </div>
+}

@@ -1,0 +1,24 @@
+﻿---
+ID: "bb2a43e8-950e-4997-a213-d6e44759a2a9"
+Parent: "ccba10f4-ab18-4326-9f37-41b520d84491"
+Template: "4935e05b-dba7-461b-b9d2-05650a50700c"
+Path: /sitecore/content/USClaroBlog/Global/Content/Quotes/VQuote
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a66ac07-ae60-4234-9876-bb0c76843f45"
+      Hint: Quote Summary
+      Value: sdfdsfsdsdsdf
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190419T061735Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a3a4d618-2857-4ec9-84f8-639ff7e99eb9"
+      Hint: Author
+      Value: "{63DB27FC-4916-4260-8FEF-CF26A191EAB6}"

@@ -1,0 +1,45 @@
+﻿---
+ID: "fd0aaae5-148d-405a-bb97-37175a0d6fe5"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "1d5d1d84-c5d9-4ec1-84a9-6ffc097c048a"
+Path: /sitecore/content/USClaroBlog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0da7d4d4-526e-4103-93b6-b360cd7f95d8"
+      Hint: Search Page Url
+      Value: /sitecore/content/USClaroBlog/Home/Search
+    - ID: "20302f46-527c-4ba9-9a05-bd1ddadb334c"
+      Hint: Google ClientId
+      Value: "466067690132-p5v4i9tomjkkuqfedvohii4n207kgult.apps.googleusercontent.com"
+    - ID: "203f37ca-fd9a-4fc1-bb6a-75273702cb8b"
+      Hint: QuotePath
+      Value: /sitecore/content/USClaroBlog/Global/Content/Quotes
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T134900Z
+    - ID: "3da8f026-4fc9-4c36-9ae5-0182e93d9c96"
+      Hint: Facebook AppSecret
+      Value: b3b32e0f0bdc54ab2afd3634cc77e727
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7ad51a9a-c22d-4e8a-a7c2-4bce5a8a4cce"
+      Hint: Dictionary Path
+      Value: /sitecore/content/USClaroBlog/Global/Taxonomies/Dictionary
+    - ID: "8e085f3d-cf72-4c80-830e-7a67920c3f40"
+      Hint: Facebook AppId
+      Value: 675721606219589
+    - ID: "8f9611c6-668a-40a7-a838-e21e9a4432d9"
+      Hint: LinkedIn ClientId
+      Value: 813emmpbk8jrml
+    - ID: "98376a18-c9d1-4258-bbe2-b5249667aa31"
+      Hint: Google ClientSecret
+      Value: mClfMB3oYMqKNS7pgpNtiq9e
+    - ID: "e9d25a67-b5d9-4449-8910-4ee6e95ecffe"
+      Hint: linkedin ClientSecret
+      Value: GUOS2msQkKtZ4Czz

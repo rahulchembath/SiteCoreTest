@@ -1,0 +1,18 @@
+﻿---
+ID: "edc283cd-9579-4d81-bfed-03c336c6a990"
+Parent: "49f905d6-5d03-4e43-901b-2111639ed8c0"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/USClaroBlog/MainFull
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/SubLayouts/_fullWidthMain.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190530T065341Z

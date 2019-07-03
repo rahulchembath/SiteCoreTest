@@ -1,0 +1,22 @@
+﻿---
+ID: "7c6c0295-22d3-4776-8d2c-e11b63c2c8ac"
+Parent: "f7dc52e9-5e83-47d6-aba0-67d125556201"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/UsClaroBlog/Page Types/Base/_PageBase
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{805C1E14-6BEC-4C92-A524-F0D09E46BBB3}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{6DC6E1CA-C099-48F1-B878-140D4021040B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T060315Z

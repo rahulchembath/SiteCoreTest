@@ -1,0 +1,20 @@
+﻿---
+ID: "72e286f9-ab71-4e78-b094-043bcdd57802"
+Parent: "23d32cdc-a746-4e24-9406-674eb5db48d9"
+Template: "8274ba8d-c940-41f6-90fb-a5277b869830"
+Path: /sitecore/content/USClaroBlog/Global/Taxonomies/Social Media Share/linkedIn
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190429T085021Z
+    - ID: "a4be1023-c00d-4b6c-b1ba-816403ea3d8d"
+      Hint: DisplayOrder
+      Value: 3
+    - ID: "a8e05ca3-dad7-48b1-b300-9c517b04e32a"
+      Hint: ItemName
+      Value: linkedIn
